@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+      font-family: "barlow", sans-serif;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      line-height: 1.7;
+}
+
+section{
+      padding: 60px;
+}
+
+.btn{
+      background-color: #1d3ee4;
+      padding: 9px 10px;
+      color: white;
+      border: 2px solid black;
+      font-size: 20px;
+      font-weight: 700;
+}
+
+.btn:hover{
+      background-color: #ffffff;
+      color: #f62076;
+      border: 2px solid black;
+      font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6{
+      color: #ffffff;
+      font-weight: 700;
+}
+
+/*NAVBAR*/
+.navbar{
+      background-color: #f62076;
+}
+.navbar-brand{
+      font-size: 30px;
+      font-style: bold;
+      font-weight: 700;
+      color: #ffffff;
+      margin-right: 100px;
+}
+.nav-item{
+      padding: 5px;
+      margin-right: 0px;
+      text-align: center;
+}
+
+.nav-link{
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 14px;
+      color: #ffffff;
+      font-weight: 700;
+}
+
+/*Landing Page*/
+.welcome{
+      display: block;
+      background-color: #f62076;
+      font-weight: 700;
+      padding: 40px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.mission{
+      background-color: whitesmoke;
+      color: #f62076 !important;
+}
+
+.growth{
+      background-color: sienna;
+      text-align: center;
+}
+
+.insight{
+      background-color: chartreuse;
+      text-align: center;
+}
+
+.connect{
+      background-color: beige;
+      color: black;
+      font-weight: 700;
+}
+
+/*About*/
+
+/*Program*/
+
+/*Resources*/
+
+/*Community*/
+
+/*Testimony*/
+
+/*Contact*/
+
+/*Login*/
+
+/*Footer*/
+footer{
+      background-color: rgb(53, 53, 242);
+      font-weight: 500;
+}
+footer a{
+      text-decoration: none;
+      color: black;
+}
+footer a:hover{
+      text-decoration: underline;
+      color: #f62076;
+}
+footer i{
+      color:#ffffff;
+}
+
+/*BACK-TO-TOP*/
+#back-to-top {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color: white;
+      color: rgb(207, 22, 22);
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 18px;
+      }
+  
+#back-to-top:hover {
+      background-color: #ea1717;
+  }
